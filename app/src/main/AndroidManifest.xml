@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.adminquotesapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdminQuotesApp">
+        <activity
+            android:name=".View.VRelationship"
+            android:exported="false" />
+        <activity
+            android:name=".View.VTrust1"
+            android:exported="false" />
+        <activity
+            android:name=".View.VSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".View.VPower"
+            android:exported="false" />
+        <activity
+            android:name=".View.VPositive"
+            android:exported="false" />
+        <activity
+            android:name=".View.VPeace"
+            android:exported="false" />
+        <activity
+            android:name=".View.VPatience"
+            android:exported="false" />
+        <activity
+            android:name=".View.VMotivational"
+            android:exported="false" />
+        <activity
+            android:name=".View.VLove"
+            android:exported="false" />
+        <activity
+            android:name=".View.VLife"
+            android:exported="false" />
+        <activity
+            android:name=".View.VLeaderShip"
+            android:exported="false" />
+        <activity
+            android:name=".View.VInspirational"
+            android:exported="false" />
+        <activity
+            android:name=".View.VHealth"
+            android:exported="false" />
+        <activity
+            android:name=".View.VHappiness"
+            android:exported="false" />
+        <activity
+            android:name=".View.VFriendShip"
+            android:exported="false" />
+        <activity
+            android:name=".View.VFaith"
+            android:exported="false" />
+        <activity
+            android:name=".View.VFailure"
+            android:exported="false" />
+        <activity
+            android:name=".View.VEducation"
+            android:exported="false" />
+        <activity
+            android:name=".View.VChange"
+            android:exported="false" />
+        <activity
+            android:name=".View.VAttitude"
+            android:exported="false" />
+        <activity
+            android:name=".View.ContactViewData"
+            android:exported="false" />
+        <activity
+            android:name=".View.ContactView"
+            android:exported="false" />
+        <activity
+            android:name=".View.AboutViewData"
+            android:exported="false" />
+        <activity
+            android:name=".View.AboutView"
+            android:exported="false" />
+        <activity
+            android:name=".View.InquiryView"
+            android:exported="false" />
+        <activity
+            android:name=".View.Quotes_List"
+            android:exported="false" />
+        <activity
+            android:name=".Insert.QuotesInsert"
+            android:exported="false" />
+        <activity
+            android:name=".Insert.ContactInsert"
+            android:exported="false" />
+        <activity
+            android:name=".Insert.AboutInsert"
+            android:exported="false" />
+        <activity
+            android:name=".ImageInsert"
+            android:exported="false" />
+        <activity
+            android:name=".ImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

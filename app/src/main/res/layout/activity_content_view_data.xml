@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ContactViewData">
+
+    <TextView
+        android:id="@+id/viewNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="2dp"
+        android:hint="Line1 here"
+        android:textSize="20sp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/viewnum"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewnum"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewNum1"/>
+
+    <TextView
+        android:id="@+id/viewNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:hint="Line2 Here"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewnum" />
+    <View
+        android:id="@+id/viewnum2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewNum2"/>
+    <TextView
+        android:id="@+id/viewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Line3 Here"
+        android:textSize="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewnum2" />
+
+    <View
+        android:id="@+id/viewemail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewEmail"/>
+    <TextView
+        android:id="@+id/viewWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Line4 Here"
+        android:textSize="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewemail" />
+    <View
+        android:id="@+id/viewwebsite"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewWebsite"/>
+
+    <TextView
+        android:id="@+id/viewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:hint="Line5 Here"
+        android:textSize="20dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewwebsite" />
+    <View
+        android:id="@+id/viewaddress"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewAddress"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

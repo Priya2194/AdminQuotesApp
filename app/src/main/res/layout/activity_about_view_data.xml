@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.AboutViewData">
+
+    <TextView
+        android:id="@+id/viewLine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="2dp"
+        android:hint="Line1 here"
+        android:textSize="20sp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/viewnm"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewnm"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewLine1"/>
+
+    <TextView
+        android:id="@+id/viewLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:hint="Line2 Here"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewnm" />
+    <View
+        android:id="@+id/viewemail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewLine2"/>
+    <TextView
+        android:id="@+id/viewLine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Line3 Here"
+        android:textSize="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewemail" />
+
+    <View
+        android:id="@+id/viewcontact"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewLine3"/>
+    <TextView
+        android:id="@+id/viewLine4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Line4 Here"
+        android:textSize="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewcontact" />
+    <View
+        android:id="@+id/viewask"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewLine4"/>
+
+    <TextView
+        android:id="@+id/viewLine5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:hint="Line5 Here"
+        android:textSize="20dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewask" />
+    <View
+        android:id="@+id/viewfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"
+        app:layout_constraintTop_toBottomOf="@id/viewLine5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

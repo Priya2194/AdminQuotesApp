@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1048173720685",
+    "firebase_url": "https://quotesuserapp-default-rtdb.firebaseio.com",
+    "project_id": "quotesuserapp",
+    "storage_bucket": "quotesuserapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048173720685:android:6795bb16a4516ad11c7b64",
+        "android_client_info": {
+          "package_name": "com.example.adminquotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048173720685-2inu6jke8ov5tfc43lh956ib2ntued8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqv7D2O_W-Mj2RFcHolZmL5rtv21J-prQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048173720685-2inu6jke8ov5tfc43lh956ib2ntued8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048173720685:android:b90c9f0d91a37ad51c7b64",
+        "android_client_info": {
+          "package_name": "com.example.quotesadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048173720685-2inu6jke8ov5tfc43lh956ib2ntued8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqv7D2O_W-Mj2RFcHolZmL5rtv21J-prQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048173720685-2inu6jke8ov5tfc43lh956ib2ntued8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048173720685:android:386b60c4d76bc7ea1c7b64",
+        "android_client_info": {
+          "package_name": "com.example.quotesuserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048173720685-2inu6jke8ov5tfc43lh956ib2ntued8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqv7D2O_W-Mj2RFcHolZmL5rtv21J-prQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048173720685-2inu6jke8ov5tfc43lh956ib2ntued8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

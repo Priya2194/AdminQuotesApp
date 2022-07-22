@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/cherry_swash"
+        android:text="QuotesApp"
+        android:textSize="28sp"
+        android:textColor="@color/purple_500"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:text="Quotes"
+        android:onClick="Quotes"
+        android:textSize="18sp"
+        android:padding="7dp"
+        android:background="@drawable/btnbacground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:text="AboutUs"
+        android:onClick="AboutUs"
+        android:textSize="18sp"
+        android:padding="7dp"
+        android:background="@drawable/btnbacground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quotes" />
+
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:text="ContactUs"
+        android:onClick="ContactUs"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:background="@drawable/btnbacground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUs" />
+
+    <Button
+        android:id="@+id/viewinquiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:text="ViewInquiry"
+        android:padding="7dp"
+        android:onClick="ViewInquiry"
+        android:textSize="18sp"
+        android:background="@drawable/btnbacground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactus" />
+
+
+       <Button
+        android:id="@+id/imgquotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/zilla_slab_semibold_italic"
+        android:text="InsertImgQuotes"
+        android:onClick="InsertImgQuotes"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:background="@drawable/btnbacground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewinquiry" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
